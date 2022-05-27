@@ -16,10 +16,10 @@ server.get('/semaforo/:cor', (req, resp) => {
 
 server.get('/semana/:dia', (req, resp) => {
     const dia = req.params.dia
-    const a = semana(dia) 
+    const b = semana(dia) 
 
     resp.send({
-        dia: a
+        dia: b
     })
 })
 
