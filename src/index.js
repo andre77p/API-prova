@@ -10,7 +10,7 @@ server.use(express.json());
 server.use(endpoints)
 
 
-server.listen(process.env.PORT, () => console.log(`API server ONLINE on PORT ${process.env.PORT}`));
+server.listen(process.env.PORT, () => console.log(`API server ONLINE na PORT ${process.env.PORT}`));
 
 
 
